@@ -1,5 +1,5 @@
 ---
-abstract: 'Determining the maximum weight perfect matching in a weighted complete bipartite graph'
+abstract: 'Determines the maximum weight perfect matching in a weighted complete bipartite graph'
 author:
   - 'Martin-Louis Bright <mlbright@gmail.com>'
 configure_requires:
@@ -13,10 +13,10 @@ name: Algorithm-Kuhn-Munkres
 provides:
   Algorithm::Kuhn::Munkres:
     file: lib/Algorithm/Kuhn/Munkres.pm
-    version: v0.0.3
+    version: v1.0.0
 requires:
   Test::More: 0
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.0.3
+version: v1.0.0
