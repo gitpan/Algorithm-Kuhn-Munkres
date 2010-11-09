@@ -13,10 +13,11 @@ name: Algorithm-Kuhn-Munkres
 provides:
   Algorithm::Kuhn::Munkres:
     file: lib/Algorithm/Kuhn/Munkres.pm
-    version: v1.0.3
+    version: v1.0.4
 requires:
+  Perl::Critic: 0
   Test::More: 0
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v1.0.3
+version: v1.0.4
